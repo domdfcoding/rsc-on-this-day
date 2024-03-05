@@ -49,5 +49,5 @@ known_third_party = [
     "pytest_timeout",
     "requests",
 ]
-known_first_party = "rsc_on_this_day"
+known_first_party = [ "rsc_on_this_day",]
 line_length = 115
