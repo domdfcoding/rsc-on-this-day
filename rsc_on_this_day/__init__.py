@@ -36,7 +36,7 @@ from typing import Tuple, Union
 import click
 from apeye.cache import Cache
 from apeye.requests_url import RequestsURL
-from bs4 import BeautifulSoup  # type: ignore[import]
+from bs4 import BeautifulSoup
 from domdf_python_tools.dates import check_date, months, parse_month
 
 __author__ = "Dominic Davis-Foster"
@@ -98,8 +98,9 @@ def get_fact(
 	page = (_base_url / f"{month}-{day}").get()
 	soup = BeautifulSoup(page.content, "html.parser")
 
-	header = soup.find("div", {"class": "description"}).previousSibling.previousSibling.get_text().strip()
-	body = soup.find("div", {"class": "description"}).get_text().strip()
+	description_div = soup.find("div", {"class": "description"})
+	header = description_div.previousSibling.previousSibling.get_text().strip()  # type: ignore[union-attr]
+	body = description_div.get_text().strip()  # type: ignore[union-attr]
 
 	return header, body
 
