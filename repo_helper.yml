@@ -24,11 +24,10 @@ additional_ignore:
 #  - include rsc_on_this_day.1
 
 python_versions:
-  - '3.6'
   - '3.7'
   - "3.8"
   - "3.9"
-  - "3.10-dev"
+  - "3.10"
 
 console_scripts:
   - rsc_on_this_day=rsc_on_this_day:main
