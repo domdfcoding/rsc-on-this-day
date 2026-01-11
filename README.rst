@@ -100,11 +100,11 @@ Displays Royal Society of Chemistry "On This Day" facts in your terminal.
 	:target: https://github.com/domdfcoding/rsc-on-this-day/commit/master
 	:alt: GitHub last commit
 
-.. |maintained| image:: https://img.shields.io/maintenance/yes/2025
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
 .. |pypi-downloads| image:: https://img.shields.io/pypi/dm/rsc_on_this_day
-	:target: https://pypi.org/project/rsc_on_this_day/
+	:target: https://pypistats.org/packages/rsc_on_this_day
 	:alt: PyPI - Downloads
 
 .. end shields
