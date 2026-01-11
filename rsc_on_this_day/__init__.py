@@ -53,7 +53,7 @@ fact_cache = Cache("rsc_on_this_day")
 
 _base_url = RequestsURL(
 		"https://web.archive.org/web/20190331053029id_/"
-		"http://www.rsc.org/learn-chemistry/collections/chemistry-calendar/"
+		"http://www.rsc.org/learn-chemistry/collections/chemistry-calendar/",
 		)
 
 date_arg_error_str = "If requesting a specific date both the month and day must be given."

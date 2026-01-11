@@ -56,7 +56,7 @@ def clear_cache_callback(context: click.Context, param: click.Parameter, value: 
 		"--width",
 		type=click.INT,
 		show_default=True,
-		help="The number of characters per line of the output. Set to -1 to disable wrapping."
+		help="The number of characters per line of the output. Set to -1 to disable wrapping.",
 		)
 @flag_option(
 		"--clear-cache",
@@ -67,7 +67,7 @@ def clear_cache_callback(context: click.Context, param: click.Parameter, value: 
 		)
 @click.version_option(rsc_on_this_day.__version__)
 @click_command()
-def main(
+def main(  # noqa: PRM002
 		month: Union[str, int, None] = None,
 		day: Union[str, int, None] = None,
 		width: int = 80,

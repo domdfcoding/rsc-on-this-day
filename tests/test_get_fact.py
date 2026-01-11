@@ -17,7 +17,7 @@ from rsc_on_this_day import clear_cache, date_arg_error_str, get_fact
 def call_count(func: Callable) -> Callable:
 
 	@wraps(func)
-	def wrapper(*args, **kwargs):
+	def wrapper(*args, **kwargs):  # noqa: MAN002
 		wrapper.call_count += 1  # type: ignore[attr-defined]
 		return func(*args, **kwargs)
 
@@ -26,7 +26,7 @@ def call_count(func: Callable) -> Callable:
 
 
 @pytest.fixture()
-def monkeypatched_requests(monkeypatch):
+def monkeypatched_requests(monkeypatch) -> None:
 	monkeypatch.setattr(RequestsURL, "get", call_count(RequestsURL.get))
 
 
@@ -54,12 +54,12 @@ def monkeypatched_requests(monkeypatch):
 				("10", 13),
 				("12", 25),
 				(),
-				]
+				],
 		)
+@pytest.mark.usefixtures("monkeypatched_requests")
 def test_get_fact(
 		date: Tuple,
 		advanced_file_regression: AdvancedFileRegressionFixture,
-		monkeypatched_requests,
 		monkeypatch,
 		) -> None:
 	with warnings.catch_warnings():
@@ -69,7 +69,7 @@ def test_get_fact(
 	class MockedDate(datetime.date):
 
 		@classmethod
-		def today(cls):
+		def today(cls) -> datetime.date:  # type: ignore[override]
 			return datetime.date(2020, 12, 28)
 
 	monkeypatch.setattr(datetime, "date", MockedDate)
