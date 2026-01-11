@@ -24,8 +24,8 @@ Homepage = "https://github.com/domdfcoding/rsc-on-this-day"
 Documentation = "https://rsc-on-this-day.readthedocs.io/en/latest"
 
 [project.scripts]
-rsc_on_this_day = "rsc_on_this_day:main"
-rsc-on-this-day = "rsc_on_this_day:main"
+rsc_on_this_day = "rsc_on_this_day.__main__:main"
+rsc-on-this-day = "rsc_on_this_day.__main__:main"
 
 [tool.sphinx-pyproject]
 github_username = "domdfcoding"

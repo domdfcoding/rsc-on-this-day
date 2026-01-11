@@ -33,8 +33,8 @@ python_versions:
   - "3.13"
 
 console_scripts:
-  - rsc_on_this_day=rsc_on_this_day:main
-  - rsc-on-this-day=rsc_on_this_day:main
+  - rsc_on_this_day=rsc_on_this_day.__main__:main
+  - rsc-on-this-day=rsc_on_this_day.__main__:main
 
 #tox_build_requirements:
 #  - domdf_python_tools
