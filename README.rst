@@ -121,7 +121,7 @@ To install with ``pip``:
 
 .. code-block:: bash
 
-	$ python -m pip install rsc_on_this_day
+	$ python -m pip install rsc-on-this-day
 
 .. end installation
 
