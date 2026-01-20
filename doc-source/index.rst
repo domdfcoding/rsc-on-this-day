@@ -120,7 +120,7 @@ Installation
 
 .. start installation
 
-.. installation:: rsc_on_this_day
+.. installation:: rsc-on-this-day
 	:pypi:
 	:github:
 
