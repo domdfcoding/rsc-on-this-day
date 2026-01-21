@@ -69,22 +69,22 @@ RSC On This Day in Chemistry
 		:alt: CodeFactor Grade
 
 	.. |pypi-version| pypi-shield::
-		:project: rsc_on_this_day
+		:project: rsc-on-this-day
 		:version:
 		:alt: PyPI - Package Version
 
 	.. |supported-versions| pypi-shield::
-		:project: rsc_on_this_day
+		:project: rsc-on-this-day
 		:py-versions:
 		:alt: PyPI - Supported Python Versions
 
 	.. |supported-implementations| pypi-shield::
-		:project: rsc_on_this_day
+		:project: rsc-on-this-day
 		:implementations:
 		:alt: PyPI - Supported Implementations
 
 	.. |wheel| pypi-shield::
-		:project: rsc_on_this_day
+		:project: rsc-on-this-day
 		:wheel:
 		:alt: PyPI - Wheel
 
@@ -108,7 +108,7 @@ RSC On This Day in Chemistry
 		:alt: Maintenance
 
 	.. |pypi-downloads| pypi-shield::
-		:project: rsc_on_this_day
+		:project: rsc-on-this-day
 		:downloads: month
 		:alt: PyPI - Downloads
 

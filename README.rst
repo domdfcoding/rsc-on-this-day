@@ -69,20 +69,20 @@ Displays Royal Society of Chemistry "On This Day" facts in your terminal.
 	:target: https://www.codefactor.io/repository/github/domdfcoding/rsc-on-this-day
 	:alt: CodeFactor Grade
 
-.. |pypi-version| image:: https://img.shields.io/pypi/v/rsc_on_this_day
-	:target: https://pypi.org/project/rsc_on_this_day/
+.. |pypi-version| image:: https://img.shields.io/pypi/v/rsc-on-this-day
+	:target: https://pypi.org/project/rsc-on-this-day/
 	:alt: PyPI - Package Version
 
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/rsc_on_this_day?logo=python&logoColor=white
-	:target: https://pypi.org/project/rsc_on_this_day/
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/rsc-on-this-day?logo=python&logoColor=white
+	:target: https://pypi.org/project/rsc-on-this-day/
 	:alt: PyPI - Supported Python Versions
 
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/rsc_on_this_day
-	:target: https://pypi.org/project/rsc_on_this_day/
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/rsc-on-this-day
+	:target: https://pypi.org/project/rsc-on-this-day/
 	:alt: PyPI - Supported Implementations
 
-.. |wheel| image:: https://img.shields.io/pypi/wheel/rsc_on_this_day
-	:target: https://pypi.org/project/rsc_on_this_day/
+.. |wheel| image:: https://img.shields.io/pypi/wheel/rsc-on-this-day
+	:target: https://pypi.org/project/rsc-on-this-day/
 	:alt: PyPI - Wheel
 
 .. |license| image:: https://img.shields.io/github/license/domdfcoding/rsc-on-this-day
@@ -103,8 +103,8 @@ Displays Royal Society of Chemistry "On This Day" facts in your terminal.
 .. |maintained| image:: https://img.shields.io/maintenance/yes/2026
 	:alt: Maintenance
 
-.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/rsc_on_this_day
-	:target: https://pypistats.org/packages/rsc_on_this_day
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/rsc-on-this-day
+	:target: https://pypistats.org/packages/rsc-on-this-day
 	:alt: PyPI - Downloads
 
 .. end shields
