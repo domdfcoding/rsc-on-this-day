@@ -7,4 +7,4 @@ License
 .. license-info:: MIT
 
 .. license::
-	:py: rsc_on_this_day
+	:py: rsc-on-this-day

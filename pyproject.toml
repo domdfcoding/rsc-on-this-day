@@ -3,7 +3,7 @@ requires = [ "domdf-python-tools", "sphinx>=3.0.3", "whey",]
 build-backend = "whey"
 
 [project]
-name = "rsc_on_this_day"
+name = "rsc-on-this-day"
 version = "0.5.0"
 description = 'Displays Royal Society of Chemistry "On This Day" facts.'
 readme = "README.rst"
@@ -111,6 +111,7 @@ python-versions = [ "3.7", "3.8", "3.9", "3.10", "3.11", "3.12", "3.13",]
 python-implementations = [ "CPython",]
 platforms = [ "Windows", "macOS", "Linux",]
 license-key = "MIT"
+package = "rsc_on_this_day"
 
 [tool.mypy]
 python_version = "3.9"
